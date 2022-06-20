@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name G3MB-202PDC5)(type Legacy)(uri C:/Users/Usuario/Downloads/G3MB-202PDC5/G3MB-202PDC5.lib)(options "")(descr ""))
+  (lib (name BC547C)(type Legacy)(uri C:/Users/Usuario/Downloads/BC547C/BC547C.lib)(options "")(descr ""))
+)

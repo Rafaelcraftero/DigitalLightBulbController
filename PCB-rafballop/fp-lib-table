@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name G3MB-202PDC5)(type KiCad)(uri C:/Users/Usuario/Downloads/G3MB-202PDC5)(options "")(descr ""))
+  (lib (name BC547C)(type KiCad)(uri C:/Users/Usuario/Downloads/BC547C)(options "")(descr ""))
+)

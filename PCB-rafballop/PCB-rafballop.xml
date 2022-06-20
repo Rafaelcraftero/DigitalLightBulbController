@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Usuario\Documents\PCB-rafballop\PCB-rafballop.sch</source>
+    <date>20/12/2021 16:21:49</date>
+    <tool>Eeschema (5.1.12)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>sam. 04 avril 2015</date>
+        <source>PCB-rafballop.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P3">
+      <value>ADC</value>
+      <footprint>Socket_Arduino_Pro_Mini:Socket_Strip_Arduino_1x02</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D74FB3</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>ADC</value>
+      <footprint>Socket_Arduino_Pro_Mini:Socket_Strip_Arduino_1x02</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D7505C</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>Digital</value>
+      <footprint>Socket_Arduino_Pro_Mini:Socket_Strip_Arduino_1x12</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x12" description="Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D754D1</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>Analog</value>
+      <footprint>Socket_Arduino_Pro_Mini:Socket_Strip_Arduino_1x12</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x12" description="Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D755F3</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>Fuse</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B76F33</tstamp>
+    </comp>
+    <comp ref="F3">
+      <value>Fuse</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B77B8E</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>Varistor</value>
+      <footprint>Varistor:RV_Disc_D12mm_W6.2mm_P7.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Varistor" description="Voltage dependent resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B78D96</tstamp>
+    </comp>
+    <comp ref="PS1">
+      <value>HLK-PM01</value>
+      <footprint>Converter_ACDC:Converter_ACDC_HiLink_HLK-PMxx</footprint>
+      <datasheet>http://www.hlktech.net/product_detail.php?ProId=54</datasheet>
+      <libsource lib="Converter_ACDC" part="HLK-PM01" description="Compact AC/DC board mount power module 3W 5V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B7AF0B</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B766B2</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B85A52</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B84292</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>NRF24L01_Breakout</value>
+      <footprint>RF_Module:nRF24L01_Breakout</footprint>
+      <datasheet>http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf</datasheet>
+      <libsource lib="RF" part="NRF24L01_Breakout" description="Ultra low power 2.4GHz RF Transceiver, Carrier PCB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B9C87B</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>G3MB-202PDC5</value>
+      <footprint>G3MB-202PDC5:RELAY_G3MB-202PDC5</footprint>
+      <fields>
+        <field name="MANUFACTURER">OMRON</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">20.5mm</field>
+        <field name="PARTREV">J091-E1-1A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="G3MB-202PDC5" part="G3MB-202PDC5" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B780B3</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>BC547C</value>
+      <footprint>BC547C:TO127P254X732-3</footprint>
+      <fields>
+        <field name="MPN">BC547C</field>
+        <field name="OC_FARNELL">1467871</field>
+        <field name="OC_NEWARK">-</field>
+        <field name="PACKAGE">TO-92</field>
+        <field name="SUPPLIER">Fairchild</field>
+      </fields>
+      <libsource lib="BC547C" part="BC547C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B7BD7B</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B80920</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B8227F</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C0ADB8</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C0B7B5</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C0CB78</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x04_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C0D877</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="BC547C" part="BC547C">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BC547C</field>
+        <field name="Footprint">TO127P254X732-3</field>
+        <field name="MPN">BC547C</field>
+        <field name="OC_NEWARK">-</field>
+        <field name="PACKAGE">TO-92</field>
+        <field name="SUPPLIER">Fairchild</field>
+        <field name="OC_FARNELL">1467871</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x12">
+      <description>Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Converter_ACDC" part="HLK-PM01">
+      <aliases>
+        <alias>HLK-PM03</alias>
+        <alias>HLK-PM12</alias>
+        <alias>HLK-PM24</alias>
+      </aliases>
+      <description>Compact AC/DC board mount power module 3W 5V</description>
+      <docs>http://www.hlktech.net/product_detail.php?ProId=54</docs>
+      <footprints>
+        <fp>Converter*ACDC*HiLink*HLK?PM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">HLK-PM01</field>
+        <field name="Footprint">Converter_ACDC:Converter_ACDC_HiLink_HLK-PMxx</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AC/L" type="power_in"/>
+        <pin num="2" name="AC/N" type="power_in"/>
+        <pin num="3" name="-Vout" type="power_out"/>
+        <pin num="4" name="+Vout" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Varistor">
+      <description>Voltage dependent resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>RV_*</fp>
+        <fp>Varistor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">Varistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="G3MB-202PDC5" part="G3MB-202PDC5">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">G3MB-202PDC5</field>
+        <field name="Footprint">RELAY_G3MB-202PDC5</field>
+        <field name="MANUFACTURER">OMRON</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">20.5mm</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">J091-E1-1A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF" part="NRF24L01_Breakout">
+      <description>Ultra low power 2.4GHz RF Transceiver, Carrier PCB</description>
+      <docs>http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf</docs>
+      <footprints>
+        <fp>nRF24L01*Breakout*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NRF24L01_Breakout</field>
+        <field name="Footprint">RF_Module:nRF24L01_Breakout</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="CE" type="input"/>
+        <pin num="4" name="~CSN" type="input"/>
+        <pin num="5" name="SCK" type="input"/>
+        <pin num="6" name="MOSI" type="input"/>
+        <pin num="7" name="MISO" type="output"/>
+        <pin num="8" name="IRQ" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="BC547C">
+      <uri>C:/Users/Usuario/Downloads/BC547C/BC547C.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Converter_ACDC">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Converter_ACDC.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="G3MB-202PDC5">
+      <uri>C:/Users/Usuario/Downloads/G3MB-202PDC5/G3MB-202PDC5.lib</uri>
+    </library>
+    <library logical="RF">
+      <uri>C:\Program Files\KiCad\share\kicad\library/RF.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="AC+">
+      <node ref="RV1" pin="1"/>
+      <node ref="PS1" pin="1"/>
+      <node ref="K1" pin="1"/>
+      <node ref="F3" pin="1"/>
+    </net>
+    <net code="2" name="TB2">
+      <node ref="K1" pin="2"/>
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="3" name="VDD">
+      <node ref="P4" pin="1"/>
+      <node ref="K1" pin="3"/>
+      <node ref="PS1" pin="3"/>
+    </net>
+    <net code="4" name="BJT_C">
+      <node ref="K1" pin="4"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="PS1" pin="4"/>
+      <node ref="J7" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="J5" pin="1"/>
+      <node ref="P4" pin="2"/>
+      <node ref="P1" pin="4"/>
+      <node ref="J6" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="6" name="Net-(R1-Pad1)">
+      <node ref="U2" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="7" name="PROMINI_PIN5">
+      <node ref="R1" pin="2"/>
+      <node ref="P1" pin="8"/>
+    </net>
+    <net code="8" name="VCC">
+      <node ref="J4" pin="3"/>
+      <node ref="J6" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="P4" pin="4"/>
+      <node ref="J5" pin="4"/>
+      <node ref="J7" pin="1"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="9" name="PROMINI_CE">
+      <node ref="U1" pin="3"/>
+      <node ref="P1" pin="12"/>
+    </net>
+    <net code="10" name="PROMINI_IRQ">
+      <node ref="U1" pin="8"/>
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="11" name="/A7">
+      <node ref="P5" pin="1"/>
+    </net>
+    <net code="12" name="/A6">
+      <node ref="P5" pin="2"/>
+    </net>
+    <net code="13" name="/1(Tx)">
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="14" name="/8">
+      <node ref="P1" pin="11"/>
+    </net>
+    <net code="15" name="/0(Rx)">
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="16" name="/Reset">
+      <node ref="P4" pin="3"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="17" name="/6(**)">
+      <node ref="P1" pin="9"/>
+    </net>
+    <net code="18" name="/7">
+      <node ref="P1" pin="10"/>
+    </net>
+    <net code="19" name="/A1">
+      <node ref="P4" pin="7"/>
+    </net>
+    <net code="20" name="/A0">
+      <node ref="P4" pin="8"/>
+    </net>
+    <net code="21" name="PROMINI_SCK">
+      <node ref="U1" pin="5"/>
+      <node ref="P4" pin="9"/>
+    </net>
+    <net code="22" name="PROMINI_MISO">
+      <node ref="U1" pin="7"/>
+      <node ref="P4" pin="10"/>
+    </net>
+    <net code="23" name="PROMINI_PIN3">
+      <node ref="P1" pin="6"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="24" name="PROMINI_PIN4">
+      <node ref="P1" pin="7"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="25" name="PROMINI_CSN">
+      <node ref="U1" pin="4"/>
+      <node ref="P4" pin="12"/>
+    </net>
+    <net code="26" name="PROMINI_MOSI">
+      <node ref="U1" pin="6"/>
+      <node ref="P4" pin="11"/>
+    </net>
+    <net code="27" name="PROMINI_A2">
+      <node ref="P4" pin="6"/>
+      <node ref="J7" pin="3"/>
+    </net>
+    <net code="28" name="PROMINI_A3">
+      <node ref="P4" pin="5"/>
+      <node ref="J6" pin="3"/>
+    </net>
+    <net code="29" name="PROMINI_A5">
+      <node ref="J5" pin="2"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="30" name="PROMINI_A4">
+      <node ref="J5" pin="3"/>
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="31" name="Net-(F1-Pad2)">
+      <node ref="J2" pin="1"/>
+      <node ref="F1" pin="2"/>
+    </net>
+    <net code="32" name="Net-(F2-Pad2)">
+      <node ref="F2" pin="2"/>
+      <node ref="F3" pin="2"/>
+    </net>
+    <net code="33" name="Net-(F2-Pad1)">
+      <node ref="F2" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="34" name="Net-(J1-Pad1)">
+      <node ref="PS1" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="RV1" pin="2"/>
+    </net>
+  </nets>
+</export>
