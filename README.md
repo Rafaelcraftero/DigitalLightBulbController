@@ -51,10 +51,6 @@ Soldamos los componentes a la PCB
 
 **Test de la PCB**
 
-Al hacer el test nos dimos cuenta que la parte digital funciona correctamente sin embargo la parte analógica tiene un error en el diseño y está conectada el 5V a tierra y tierra a 5V.
-
-**Conclusiones**
-
-En conclusión, esta última parte ha sido la que mas nos ha podido acercar a lo que es la realidad en cuanto a sistemas domóticos y a lo que estos conllevan. Hemos tenido que hacerlos desde cero diseñando nosotros el prototipo de sistema que queremos hacer, posteriormente soldarlo y finalmente testear su correcto funcionamiento.
+Al hacer el test nos dimos cuenta que la parte digital funciona correctamente sin embargo la parte analógica tiene un error en el diseño y está conectada el 5V a tierra y tierra a 5V. Posteriormente se ha arreglado el diseño y subido a github.
 
 
